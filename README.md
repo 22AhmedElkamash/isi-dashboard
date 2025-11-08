@@ -114,9 +114,8 @@ $ git stash         // stash saves your current stash, but u have to remember it
     Saved working directory and index state WIP on newBranch: 211a34a deleting the added file at main
 
 $ git switch main
-    Switched to branch 'main'
-    Your branch is ahead of 'origin/main' by 4 commits.
-    (use "git push" to publish your local commits)
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 </pre>
 
 #### Create an annotated tag with tagname (v1.7)
