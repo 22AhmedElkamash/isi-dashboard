@@ -1,26 +1,37 @@
 ### 📄 Contents of `commands.txt`
 
 #### Create a new project on your local machine, then push it your remote repo.
+
 <pre>
 $ git init
     Initialized empty Git repository in D:/ITI Saraya/version control/labs/lab2/.git/
 
 $ git add .
-    warning: in the working copy of '7.0+CSS+Cascade/index.html', LF will be replaced by CRLF the next time Git touches it
-    warning: in the working copy of '7.0+CSS+Cascade/solution/solution.css', LF will be replaced by CRLF the next time Git touches it
-    warning: in the working copy of '7.0+CSS+Cascade/solution/solution.html', LF will be replaced by CRLF the next time Git touches it
-    warning: in the working copy of '7.0+CSS+Cascade/style.css', LF will be replaced by CRLF the next time Git touches it
+    warning: LF will be replaced by CRLF in 7.0+CSS+Cascade/index.html.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in 7.0+CSS+Cascade/solution/solution.css.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in 7.0+CSS+Cascade/solution/solution.html.
+    The file will have its original line endings in your working directory
+    warning: LF will be replaced by CRLF in 7.0+CSS+Cascade/style.css.
+    The file will have its original line endings in your working directory
 
 $ git commit -m "1st commit"
-[main (root-commit) 020bba5] 1st commit
- 5 files changed, 96 insertions(+)
+[master (root-commit) 9080d86] 1st commit
+ 11 files changed, 396 insertions(+)
  create mode 100644 7.0+CSS+Cascade/goal.png
  create mode 100644 7.0+CSS+Cascade/index.html
  create mode 100644 7.0+CSS+Cascade/solution/solution.css
  create mode 100644 7.0+CSS+Cascade/solution/solution.html
  create mode 100644 7.0+CSS+Cascade/style.css
+ create mode 100644 README.md
+ create mode 100644 commands.txt
+ create mode 100644 dev-file.txt
+ create mode 100644 git-lab2.zip
+ create mode 100644 images/git_cheatsheet.jpg
+ create mode 100644 test-file.txt
 
-$ git remote add origin git@github.com:m0ahmedd/git-task2-iti.git
+$ git remote add origin git@https://github.com/22AhmedElkamash/isi-dashboard
 $ git branch -M main
 $ git push -u origin main
     Enumerating objects: 9, done.
@@ -36,6 +47,7 @@ $ git push -u origin main
 </pre>
 
 #### Create two branches (dev & test) then create one file on each branch, and push this changes to the remote repo.
+
 <pre>
 $ git switch -c dev
 Switched to a new branch 'dev'
@@ -88,8 +100,8 @@ $ git push -u origin test
     * [new branch]      test -> test
     branch 'test' set up to track 'origin/test'.
 </pre>
-    
-####  Merge these changes on Main branch and then push it to your remote main branch.
+
+#### Merge these changes on Main branch and then push it to your remote main branch.
 
 <pre>
 $ git checkout -b newBranch
@@ -107,8 +119,8 @@ $ git switch main
     (use "git push" to publish your local commits)
 </pre>
 
- #### Create an annotated tag with tagname (v1.7)
- 
+#### Create an annotated tag with tagname (v1.7)
+
 <pre>
 $ git add .
 $ git commit -m "3rd commit"
@@ -118,7 +130,8 @@ $ git commit -m "3rd commit"
 $ git tag -a v1.7 -m "version 1.7"
 </pre>
 
-####  Push it to the remote repository
+#### Push it to the remote repository
+
 <pre>
 $ git push origin v1.7
     Enumerating objects: 16, done.
@@ -140,6 +153,7 @@ $ git tag
 </pre>
 
 #### Tell me how to delete tag locally and remotely.
+
 <pre>
 $ git tag -d v1.7
     Deleted tag 'v1.7' (was aa7b2af)
@@ -149,7 +163,6 @@ $ git push origin --delete v1.7
     - [deleted]         v1.7
 </pre>
 
-
-
 # Employee DB Normalization
+
 ![git_cheatsheet](images/git_cheatsheet.jpg)
