@@ -123,8 +123,8 @@ Your branch is up to date with 'origin/main'.
 <pre>
 $ git add .
 $ git commit -m "3rd commit"
-    [main 822f4f7] 3rd commit
-    1 file changed, 15 insertions(+), 7 deletions(-)
+    [main f136237] 3rd commit
+ 1 file changed, 2 insertions(+), 3 deletions(-)
 
 $ git tag -a v1.7 -m "version 1.7"
 </pre>
@@ -133,15 +133,15 @@ $ git tag -a v1.7 -m "version 1.7"
 
 <pre>
 $ git push origin v1.7
-    Enumerating objects: 16, done.
-    Counting objects: 100% (16/16), done.
-    Delta compression using up to 16 threads
-    Compressing objects: 100% (14/14), done.
-    Writing objects: 100% (14/14), 2.14 KiB | 168.00 KiB/s, done.
-    Total 14 (delta 10), reused 0 (delta 0), pack-reused 0
-    remote: Resolving deltas: 100% (10/10), completed with 2 local objects.
-    To github.com:m0ahmedd/git-task2-iti.git
-    * [new tag]         v1.7 -> v1.7
+   Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 457 bytes | 457.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:22AhmedElkamash/isi-dashboard.git
+ * [new tag]         v1.7 -> v1.7
 </pre>
 
 #### Tell me how to list tags.
@@ -155,13 +155,13 @@ $ git tag
 
 <pre>
 $ git tag -d v1.7
-    Deleted tag 'v1.7' (was aa7b2af)
+    Deleted tag 'v1.7' (was f8e07d2)
 
 $ git push origin --delete v1.7
-    To github.com:m0ahmedd/git-task2-iti.git
-    - [deleted]         v1.7
+    To github.com:22AhmedElkamash/isi-dashboard.git
+ - [deleted]         v1.7
 </pre>
 
-# Employee DB Normalization
+# git_cheatsheet
 
 ![git_cheatsheet](images/git_cheatsheet.jpg)
