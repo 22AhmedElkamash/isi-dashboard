@@ -31,19 +31,19 @@ $ git commit -m "1st commit"
  create mode 100644 images/git_cheatsheet.jpg
  create mode 100644 test-file.txt
 
-$ git remote add origin git@https://github.com/22AhmedElkamash/isi-dashboard
+$ git remote add origin git@github.com/22AhmedElkamash/isi-dashboard
 $ git branch -M main
 $ git push -u origin main
-    Enumerating objects: 9, done.
-    Counting objects: 100% (9/9), done.
-    Delta compression using up to 16 threads
-    Compressing objects: 100% (8/8), done.
-    Writing objects: 100% (9/9), 842.46 KiB | 6.91 MiB/s, done.
-    Total 9 (delta 1), reused 0 (delta 0), pack-reused 0
-    remote: Resolving deltas: 100% (1/1), done.
-    To github.com:m0ahmedd/git-task2-iti.git
-    * [new branch]      main -> main
-    branch 'main' set up to track 'origin/main'.
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 1.83 MiB | 7.25 MiB/s, done.
+Total 19 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To github.com:22AhmedElkamash/isi-dashboard.git
+ + cf485c5...5f41cef main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
 </pre>
 
 #### Create two branches (dev & test) then create one file on each branch, and push this changes to the remote repo.
