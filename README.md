@@ -54,25 +54,24 @@ Switched to a new branch 'dev'
 
 $ git add .
 $ git commit -m "dev 1st commit"
-    [dev e6d3fe1] dev 1st commit
-    2 files changed, 35 insertions(+)
-    create mode 100644 commands.txt
-    create mode 100644 dev-file.txt
+[dev b8c58dd] dev 1st commit
+ 1 file changed, 11 insertions(+), 11 deletions(-)
 
 $ git push -u origin dev
-    Enumerating objects: 5, done.
-    Counting objects: 100% (5/5), done.
-    Delta compression using up to 16 threads
-    Compressing objects: 100% (3/3), done.
-    Writing objects: 100% (4/4), 947 bytes | 473.00 KiB/s, done.
-    Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
-    remote: 
-    remote: Create a pull request for 'dev' on GitHub by visiting:
-    remote:      https://github.com/m0ahmedd/git-task2-iti/pull/new/dev
-    remote:
-    To github.com:m0ahmedd/git-task2-iti.git
-    * [new branch]      dev -> dev
-    branch 'dev' set up to track 'origin/dev'.
+   Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 484 bytes | 484.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/22AhmedElkamash/isi-dashboard/pull/new/dev
+remote:
+To github.com:22AhmedElkamash/isi-dashboard.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
 
 $ git checkout -b test
     Switched to a new branch 'test'
@@ -85,20 +84,20 @@ $ git commit -m "test 1st commit"
     create mode 100644 test-file.txt
 
 $ git push -u origin test
-    Enumerating objects: 6, done.
-    Counting objects: 100% (6/6), done.
-    Delta compression using up to 16 threads
-    Compressing objects: 100% (3/3), done.
-    Writing objects: 100% (4/4), 783 bytes | 391.00 KiB/s, done.
-    Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
-    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-    remote: 
-    remote: Create a pull request for 'test' on GitHub by visiting:
-    remote:      https://github.com/m0ahmedd/git-task2-iti/pull/new/test
-    remote:
-    To github.com:m0ahmedd/git-task2-iti.git
-    * [new branch]      test -> test
-    branch 'test' set up to track 'origin/test'.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 512 bytes | 512.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'test' on GitHub by visiting:
+remote:      https://github.com/22AhmedElkamash/isi-dashboard/pull/new/test
+remote:
+To github.com:22AhmedElkamash/isi-dashboard.git
+ * [new branch]      test -> test
+branch 'test' set up to track 'origin/test'.
 </pre>
 
 #### Merge these changes on Main branch and then push it to your remote main branch.
